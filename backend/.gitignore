@@ -1,0 +1,4 @@
+# Backend artifacts
+node_modules/
+.env
+uploads/

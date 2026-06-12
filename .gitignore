@@ -1,0 +1,11 @@
+# Root gitignore
+node_modules/
+.env
+.DS_Store
+dist/
+build/
+*.md
+!README.md
+.claude/
+docs/
+Vela/

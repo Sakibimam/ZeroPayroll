@@ -1,0 +1,11 @@
+# Circuit artifacts
+powersOfTau28_hez_final_14.ptau
+salary_commitment_js/
+salary_commitment.r1cs
+salary_commitment.sym
+*.zkey
+verification_key.json
+test_proof.json
+test_public.json
+circom
+*\\_*

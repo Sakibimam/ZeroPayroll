@@ -1,0 +1,13 @@
+{
+  "name": "stellar-payroll-zk",
+  "version": "1.0.0",
+  "description": "ZK-powered payroll privacy system on Stellar",
+  "main": "generate_test_proof.js",
+  "dependencies": {
+    "snarkjs": "^0.7.3",
+    "circomlib": "^2.0.5"
+  },
+  "scripts": {
+    "test": "node generate_test_proof.js"
+  }
+}
