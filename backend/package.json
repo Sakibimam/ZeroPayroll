@@ -1,0 +1,21 @@
+{
+  "name": "stellar-payroll-backend",
+  "version": "1.0.0",
+  "description": "Backend API for ZK-powered payroll privacy on Stellar",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "dependencies": {
+    "@stellar/stellar-sdk": "^12.0.0",
+    "cors": "^2.8.5",
+    "csv-parse": "^5.5.0",
+    "dotenv": "^16.0.0",
+    "express": "^4.18.0",
+    "express-rate-limit": "^7.1.0",
+    "multer": "^1.4.5-lts.1",
+    "snarkjs": "^0.7.3"
+  }
+}
